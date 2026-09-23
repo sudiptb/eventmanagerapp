@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
                 )
             )
         }
+
         b.btnLogout.setOnClickListener {
             AuthRepository().logout(); startActivity(
             Intent(
